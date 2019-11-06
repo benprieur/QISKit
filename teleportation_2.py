@@ -31,7 +31,7 @@ def apply_secret_unitary(secret_unitary, qubit, quantum_circuit, dagger):
     else:
         [functionmap[unitary](qubit) for unitary in secret_unitary[::-1]]
         
-# Les porte appliquées au bit quantique secret à transmettre        
+# Les portes appliquées au bit quantique secret à transmettre        
 secret_unitary = 'hz'        
         
 # Create the quantum circuit
